@@ -53,6 +53,9 @@ just_the_docs:
     et-vous:
       name: 🟥 ET QUOI ?
       nav_fold: true
+    et-apres: 
+      name: 🟪 La suite
+      nav_fold: true
 
    
 
