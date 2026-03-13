@@ -1,0 +1,57 @@
+baseurl: "/tech"
+url: "https://ouaisfieu.github.io"
+remote_theme: just-the-docs/just-the-docs
+
+title: "DOCTech"
+description: "Petit imprécis de pseudoscience sociale"
+favicon_ico: "/favicon-96x96.png"
+
+
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+aux_links:
+  ouaisfi.eu: https://ouaisfieu.github.io/
+
+nav:
+  - title: Notions
+    url: /notions/
+
+
+
+search_enabled: true
+color_scheme: light
+
+
+collections:
+  notions:
+    output: true
+  dossiers:               # ← Ajout de la collection
+    output: true          # ← Très important pour générer les pages HTML
+  belgique:                  # ← nom de la collection (tu peux mettre "myspot" si tu préfères)
+    output: true             # ← pour générer les pages HTML
+    permalink: /belgique/:path/  # ← structure des URL
+    sort_by: title           # ← optionnel, trie par titre
+  et-vous:
+    output: true
+    # permalink: /et-vous/:path/  # ← structure des URL
+    
+just_the_docs:
+  collections:
+    notions:
+      name: ⚙️ MENU
+      nav_fold: false
+    dossiers:             # ← Même structure pour dossiers
+      name: 🟩 Dossiers      # ← Nom affiché dans la navigation
+      nav_fold: true     # ← Mettre true si tu veux un repliement dans le menu
+    belgique:
+      name: 🟦 BELGIQUE       # ← titre dans le menu de navigation
+      nav_fold: true         # ← false = tout est affiché dans le menu, true = replié
+    et-vous:
+      name: 🟥 ET QUOI ?
+      nav_fold: true
+
+
+back_to_top: true
+back_to_top_text: "↑ Haut de page"
