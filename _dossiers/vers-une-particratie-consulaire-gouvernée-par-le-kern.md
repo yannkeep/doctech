@@ -3,7 +3,7 @@ layout: default
 title: "vers une particratie consulaire gouvernée par le Kern"
 nav_order: 20
 has_children: true
-permalink: /belgique/particratie/consulraire
+permalink: /belgique/particratie/consulaire
 ---
 
 # **Analyse structurelle, institutionnelle et démocratique de l'État belge : La transition d'une démocratie parlementaire vers une particratie consulaire gouvernée par le Kern**
