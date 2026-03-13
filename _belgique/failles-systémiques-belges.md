@@ -1,7 +1,7 @@
 ---
 title: "Les failles systémiques de la démocratie belge"
 layout: default
-nav_order: 19
+nav_order: 99
 permalink: /ensuite/
 ---
 
