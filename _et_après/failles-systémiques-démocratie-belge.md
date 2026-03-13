@@ -3,7 +3,7 @@ title: "Les failles systémiques de la démocratie belge"
 layout: default
 nav_order: 1
 has_children:
-permalink: /belgique/
+permalink: /ensuite/
 ---
 
 
