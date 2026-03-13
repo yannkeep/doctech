@@ -1,7 +1,7 @@
 ---
 layout: default        # ← indispensable pour hériter du thème
-title: Notions
-nav_order: 1
+title: LA SUITE
+nav_order: 7
 has_children: true
 toc: true
 ---
